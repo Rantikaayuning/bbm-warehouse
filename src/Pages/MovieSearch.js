@@ -16,7 +16,7 @@ const Search = ({value, getMovies}) => {
     <>
       <Jumbotron fluid>
         <Container fluid>
-            <Title className="display-5">Search Movie</Title>
+            <Title className="display-5">Movie Search for {value}</Title>
         </Container>
       </Jumbotron>
       <Container>
