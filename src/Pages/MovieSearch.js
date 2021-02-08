@@ -10,13 +10,13 @@ const Search = ({value, getMovies}) => {
 
     useEffect(() => {
         getMovies(value);
-      }, [getMovies, value])
+      }, [getMovies])
 
   return (
     <>
       <Jumbotron fluid>
         <Container fluid>
-            <Title className="display-5">Movie Search for {value}</Title>
+            <Title className="display-5">Search Movie</Title>
         </Container>
       </Jumbotron>
       <Container>
