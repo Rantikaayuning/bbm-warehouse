@@ -59,9 +59,6 @@ const HomePage = ({ getGenreList, getMovieByGenre, getMovies, movies, genres }) 
           )) : <Spinner style={{ width: '3rem', height: '3rem' }} />}
         </Row>
         <PaginationMovie />
-        <Link to='/other-movie'>
-          <Button outline color='info'>Special Movie</Button>
-        </Link>
         <br/>
         <br />
       </Container>
